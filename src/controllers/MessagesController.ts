@@ -17,14 +17,14 @@ class MessagesController {
     return response.json(message)
   }
 
-  async showByUser(request: Request, response: Response){
+  async showByUser(request: Request, response: Response): Promise<Response>{
     const { id } = request.params;
     const messageService = new MessagesService();
 
     const listMessage = await messageService.listByUser(id);
-
-    console.log(listMessage)
-    return listMessage;
+    
+    return response.json(listMessage);
+    
   }
 
 }
