@@ -22,3 +22,10 @@ https://www.notion.so/Dia-2-Iniciando-com-o-Banco-de-Dados-37250e7144b04d158f7a3
 
 984a0152-7a18-42dd-b1e6-5dcf155b33e1
 0ed7c1b7-658b-4ac6-8382-96591ee7d354
+
+yarn add socket.io
+yarn add @types/socket.io
+
+yarn add ejs
+
+yarn add socket.io-client

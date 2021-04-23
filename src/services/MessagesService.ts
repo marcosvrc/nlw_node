@@ -24,6 +24,7 @@ class MessagesService {
     });
 
     await this.messageRepository.save(message);
+    
     return message;
   }
 
